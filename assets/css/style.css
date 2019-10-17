@@ -161,6 +161,18 @@ a:hover {
 
 @media screen and (max-width: 786px){
     
+    #name {
+        margin-left: 15px;
+    }
+
+    #nav {
+        margin-right: 40px;
+    }
+
+    .content {
+        margin-left: 15px;
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 640px){
