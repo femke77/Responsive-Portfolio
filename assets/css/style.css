@@ -190,18 +190,27 @@ a:hover {
     #nav {
         
         margin: 10px;
-        padding: 0px 188px;
+        padding: 0px 186px;
               
     }
 
     .content {
-        margin: 15px auto;
+        margin: 15px auto 100px;
         width: 600px;
     }
 
     header {
         position: static;
         height: 100px;
+        
+    }
+    
+    /* this doesn't actually look good at 640px, the picture gets too big
+    but this is just a demo that I can make it look as per req */
+    #my-image{
+        float: none;
+        width: 100%;
+        height: auto;       
         
     }
 }
