@@ -178,7 +178,6 @@ a:hover {
 @media screen and (max-width: 640px){
     
     #name {
-        
         margin-left: 0;
         width: 100%;
         height: 58%;
@@ -186,9 +185,7 @@ a:hover {
         
     }
 
-
     #nav {
-        
         margin: 10px;
         padding: 0px 186px;
               
@@ -200,18 +197,22 @@ a:hover {
     }
 
     header {
-        position: static;
         height: 100px;
         
     }
     
-    /* this doesn't actually look good at 640px, the picture gets too big
-    but this is just a demo that I can make it look as per req */
     #my-image{
         float: none;
         width: 100%;
         height: auto;       
         
+    }
+
+    .portfolio-images {
+        margin: 10px auto;
+        float: none;
+        width: 100%;
+        height: auto; 
     }
 }
 
